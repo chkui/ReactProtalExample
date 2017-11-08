@@ -1,0 +1,39 @@
+{
+  "name": "reactprotalexample",
+  "version": "1.0.0",
+  "description": "An Example for React Protals future",
+  "main": "example.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --inline --config ./webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chkui/ReactProtalExample.git"
+  },
+  "keywords": [
+    "react",
+    "protals"
+  ],
+  "author": "chkui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chkui/ReactProtalExample/issues"
+  },
+  "homepage": "https://github.com/chkui/ReactProtalExample#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.x",
+    "react-dom": "^16.x",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.x",
+    "webpack-dev-server": "^2.x"
+  }
+}
